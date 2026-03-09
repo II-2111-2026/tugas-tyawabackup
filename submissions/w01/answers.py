@@ -13,17 +13,17 @@ from __future__ import annotations
 def q01() -> bool:
     """[T/F] Dalam model probabilistik, output yang sama akan selalu dihasilkan dari input yang
 sama terlepas dari variasi acak."""
-    raise NotImplementedError
+    return False
 
 def q02() -> bool:
     """[T/F] Ruang sampel dari sebuah eksperimen acak harus mencakup semua hasil yang
 mungkin terjadi tanpa tumpang tindih."""
-    raise NotImplementedError
+    return True
 
 def q03() -> bool:
     """[T/F] Probabilitas empiris mendekati probabilitas teoretis ketika jumlah percobaan
 mendekati tak hingga."""
-    raise NotImplementedError
+    return True
 
 def q04() -> str:
     """[MC] Manakah yang merupakan contoh variabel acak dalam sistem STI?
@@ -32,7 +32,7 @@ A) Kapasitas total hard disk 1TB.
 B) Jumlah core pada prosesor Intel i7.
 C) Waktu yang dibutuhkan untuk merespons query database.
 D) Jumlah bit dalam satu byte."""
-    raise NotImplementedError
+    return "C"
 
 def q05() -> str:
     """[MC] Jika sebuah ruang sampel S terdiri dari 4 kejadian yang memiliki peluang sama,
@@ -42,7 +42,7 @@ A) 0,5
 B) 0,25
 C) 0,75
 D) 1,0"""
-    raise NotImplementedError
+    return "B"
 
 def q06() -> str:
     """[MC] Kejadian yang mustahil terjadi memiliki nilai probabilitas sebesar:
@@ -51,7 +51,7 @@ A) 0
 B) 1
 C) -1
 D) 0,5"""
-    raise NotImplementedError
+    return "A"
 
 def q07() -> str:
     """[MC] Sekumpulan hasil eksperimen yang merupakan subset dari ruang sampel disebut:
@@ -60,29 +60,29 @@ A) Populasi.
 B) Parameter.
 C) Kejadian (Event).
 D) Konstanta."""
-    raise NotImplementedError
+    return "C"
 
 def q08() -> float:
     """[Numeric] Berapa jumlah elemen dalam ruang sampel jika kita melempar dua buah
 dadu bersisi enam?"""
-    raise NotImplementedError
+    return 36.0
 
 def q09() -> float:
     """[Numeric] Jika probabilitas sebuah link internet mati adalah 0,01, berapa probabilitas
 link tersebut hidup?"""
-    raise NotImplementedError
+    return 0.99
 
 def q10() -> float:
     """[Numeric] Berapa banyak susunan berbeda yang bisa dibuat dari kata "DATA"?"""
-    raise NotImplementedError
+    return 12.0
 
 def q11() -> float:
     """[Numeric] Jika sebuah server memiliki probabilitas uptime 0,95, berapa probabilitas
 server tersebut downtime dalam satu periode?"""
-    raise NotImplementedError
+    return 0.05
 
 def q12() -> float:
     """[Numeric] Dalam simulasi 1000 kali login, jika 20 kali gagal, berapa frekuensi relatif
 kegagalan tersebut?"""
-    raise NotImplementedError
+    return 0.02
 
